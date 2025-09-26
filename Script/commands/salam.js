@@ -17,7 +17,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads,Users}) => {
 var id = event.senderID;
   var name = await Users.getNameUser(event.senderID);
-    if (event.body.indexOf("assalamu alaikum")==0 || (event.body.indexOf("Assalamu alaikum")==0) || event.body.indexOf("Assalamu Alaikum")==0 ||
+    if (event.body.indexOf("assalamu alaikum")==0 || (event.body.indexOf("Assalamu alaikum")==0) || event.body.indexOf("আসসালামু আলাইকুম")==0 ||
 event.body.indexOf("Assalamualaikum")==0 ||
 event.body.indexOf("assalamualaikum")==0 ||
 event.body.indexOf("আসসালামু আলাইকুম")==0 ||
