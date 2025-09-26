@@ -10,7 +10,7 @@ module.exports.config = {
     credits: "ULLASH", //don't change my credit 
     description: "Show Owner Info",
     commandCategory: "info",
-    usages: "",
+    usages: "admin",
     cooldowns: 5
 };
 
