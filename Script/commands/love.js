@@ -6,7 +6,7 @@ module.exports.config = {
   credits: "Islamick Chat",
   description: "story VEDIO",
   commandCategory: "M H BD",
-  usages: "love7 vedio",
+  usages: "love",
   cooldowns: 5,
   dependencies: {
     "request":"",
